@@ -17,16 +17,18 @@ This project demonstrates how to transform a transactional (OLTP) system into an
 
 ## 📁 Project Structure
 
+```plaintext
 Northwind_Datawarehouse/
 │
 ├── database/
-│ ├── NorthWind_DB.bak                # Backup file of the OLTP Northwind DB
-│ └── Northwind_DB_Creation.sql       # SQL script to create the OLTP DB
+│   ├── NorthWind_DB.bak                # Backup file of the OLTP Northwind DB
+│   └── Northwind_DB_Creation.sql       # SQL script to create the OLTP DB
 │
 ├── Data warehouse/
-│ └── NorthWind_DWH_creation.sql      # SQL script to create the DWH star schema
+│   └── NorthWind_DWH_creation.sql      # SQL script to create the DWH star schema
 │
 └── README.md
+```
 
 ---
 
@@ -38,7 +40,7 @@ Northwind_Datawarehouse/
 
 ### 🔸 Star Schema (After)
 
-![Northwind Star Schema](https://i.postimg.cc/wBbCkrVd/Screenshot-161.png)
+![Northwind Star Schema](https://i.postimg.cc/mggp6whZ/Screenshot-161.png)
 
 ---
 
@@ -63,5 +65,8 @@ Northwind_Datawarehouse/
 
 3. **Execute the SSIS Package**  
    Open the SSIS package in Visual Studio and run to populate the DWH
+
+ > ⚠️ *Note: The SSIS package used for the ETL process is not included in this repository.*
+
 
 ---
