@@ -36,11 +36,11 @@ Northwind_Datawarehouse/
 
 ### 🔹 OLTP Schema (Before)
 
-![Northwind OLTP Schema](https://i.postimg.cc/Y2mHdtZD/Screenshot-160.png)
+![Northwind OLTP Schema](.github/assets/northwind_oltp_schema.png)
 
 ### 🔸 Star Schema (After)
 
-![Northwind Star Schema](https://i.postimg.cc/mggp6whZ/Screenshot-161.png)
+![Northwind Star Schema](.github/assets/northwind_star_schema.png)
 
 ---
 
